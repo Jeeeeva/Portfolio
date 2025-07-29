@@ -10,7 +10,6 @@
   #projects {
     height: fit-content;
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -27,7 +26,6 @@
   #profile,
   .section-container {
     display: block;
-    
   }
   .arrow {
     display: none;
@@ -35,8 +33,6 @@
   section,
   .section-container {
     height: fit-content;
-  }
-  section {
     margin: 0 5%;
   }
   .section__pic-container {
@@ -47,10 +43,9 @@
   .about-containers {
     margin-top: 0;
   }
-  .about-pic{
+  .about-pic {
     width: 300px;
     height: 300px;
-    
   }
 }
 
@@ -107,13 +102,13 @@
   .text-container {
     text-align: justify;
   }
-  .about-pic{
+  .about-pic {
     width: 250px;
     height: 250px;
   }
-  
 }
-/* Project layout fix for mobile view */
+
+/* Fix for project layout on smaller screens */
 .details-container {
   width: 100%;
 }
